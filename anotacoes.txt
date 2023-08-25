@@ -16,3 +16,7 @@ java
 oracle
     SID
         nome do banco de dados
+
+python
+    teste unitario
+        em Python é o mais facil de escrever porque já vem por padrao na linguagem
