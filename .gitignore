@@ -3,3 +3,5 @@ java/app/target/
 javascript/node_modules
 
 javascript/.env
+
+*__pycache__
