@@ -26,3 +26,6 @@ python
 
     fila
         pop(0)
+
+    print variavel em modo debug (nome e valor)
+        print(f'{varName=}')
