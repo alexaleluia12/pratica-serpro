@@ -1,0 +1,15 @@
+java
+    string - usa " aspasas duplas "
+    trocar versao java/javac:sudo update-alternatives --config <command-java>
+    maven create a project -
+        mvn archetype:generate -DgroupId=serpro -DartifactId=app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+    executar teste
+        cd app
+        mvn test
+
+    executar outras classes
+        java DatePast.java
+
+    executar arquivo jar
+        java -jar ./target/app-1.0-SNAPSHOT.jar
