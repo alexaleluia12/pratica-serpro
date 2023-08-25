@@ -1,3 +1,6 @@
 docker run -d -p 1521:1521 -e ORACLE_PASSWORD=test123 -e ORACLE_DATABASE=serpro_db -e APP_USER=serpro -e APP_USER_PASSWORD=test123 --name oracle gvenzl/oracle-xe
 
 # subir banco oracle usando container
+
+# definir variaveis de ambiente no OS
+source .env
