@@ -10,12 +10,10 @@ def ordenacao_bolha(wlst):
         start_index = troca
         for index in range(troca + 1, len(lst)):
             if lst[start_index] > lst[index]:
-                print(lst[start_index], ' ')
+                # print(lst[start_index], ' ')
                 tmp = lst[index]
                 lst[index] = lst[start_index]
                 lst[start_index] = tmp
-
-            start_index += 1
         troca += 1
 
     return lst
