@@ -20,3 +20,9 @@ oracle
 python
     teste unitario
         em Python é o mais facil de escrever porque já vem por padrao na linguagem
+
+    pilha
+        list em python por padrao ja implementa uma pilha append/pop
+
+    fila
+        pop(0)
