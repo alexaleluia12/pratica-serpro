@@ -1,3 +1,4 @@
+```txt
 Versoes linguagens principais
 Java versão 20.0.2
 Python 3.11.4
@@ -23,3 +24,4 @@ python
     - tratar query string e salvar no banco de dados
     - query redis/mongo/oracle/postgree
     - empacotar para um container
+```
