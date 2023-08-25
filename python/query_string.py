@@ -1,0 +1,7 @@
+from urllib import parse
+
+url = 'https://www.google.com/search?q=como+fazer+pure&sca_esv=560150485&sxsrf=AB5stBio3QJxXAjxcAL01B7NObBkycOkow%3A1692992585355&source=hp&ei=SQTpZKXgE6fd1sQP9O6UiAk&iflsig=AD69kcEAAAAAZOkSWSV1-2jwIJOo9R1BIyY0WlvDEZZ-&ved=0ahUKEwjlqJ_tyPiAAxWnrpUCHXQ3BZEQ4dUDCAk&uact=5&oq=como+fazer+pure&gs_lp=Egdnd3Mtd2l6Ig9jb21vIGZhemVyIHB1cmUyBRAAGIAEMggQABiABBixAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESNIhUABY7R1wAHgAkAEAmAF9oAHSDaoBBDAuMTW4AQPIAQD4AQHCAgQQIxgnwgILEAAYgAQYsQMYgwHCAhEQLhiABBixAxiDARjHARjRA8ICCBAuGIAEGLEDwgIFEC4YgATCAgcQIxiKBRgnwgIREC4YigUYsQMYgwEYxwEY0QPCAgsQLhiABBjHARjRA8ICCBAuGIoFGLED&sclient=gws-wiz'
+
+purl = parse.urlsplit(url)
+qs = dict(parse.parse_qsl(purl.query))
+print(f'{qs=}')

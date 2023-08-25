@@ -1,4 +1,6 @@
+async-timeout==4.0.3
 cffi==1.15.1
 cryptography==41.0.3
 oracledb==1.4.0
 pycparser==2.21
+redis==5.0.0
