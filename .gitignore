@@ -5,3 +5,4 @@ javascript/node_modules
 javascript/.env
 
 *__pycache__
+*env
