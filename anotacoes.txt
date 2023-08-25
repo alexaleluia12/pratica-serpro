@@ -13,3 +13,6 @@ java
 
     executar arquivo jar
         java -jar ./target/app-1.0-SNAPSHOT.jar
+oracle
+    SID
+        nome do banco de dados
