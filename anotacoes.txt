@@ -16,6 +16,10 @@ java
 oracle
     SID
         nome do banco de dados
+    criar index
+        CREATE INDEX <intex_name_table>_i
+        ON <table_name>(<column to be index>);
+
 
 python
     teste unitario
